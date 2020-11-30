@@ -8,51 +8,61 @@ const DUMMY_CATEGORIES = const [
     id: 'c1',
     title: 'Italiano',
     color: Colors.purple,
-  ),
-  Category(
-    id: 'c2',
-    title: 'Rápido & Fácil',
-    color: Colors.red,
-  ),
-  Category(
-    id: 'c3',
-    title: 'Hamburgers',
-    color: Colors.orange,
+    urlImg: 'assets/images/italian.png',
   ),
   Category(
     id: 'c4',
     title: 'Alemã',
     color: Colors.amber,
+    urlImg: 'assets/images/german.png',
   ),
   Category(
     id: 'c5',
     title: 'Leve & Saudável',
     color: Colors.indigo,
+    urlImg: 'assets/images/salad.png',
   ),
   Category(
     id: 'c6',
     title: 'Exótica',
     color: Colors.green,
+    urlImg: 'assets/images/exotic.png',
   ),
   Category(
     id: 'c7',
     title: 'Café da Manhã',
     color: Colors.lightBlue,
+    urlImg: 'assets/images/breakfast.png',
   ),
   Category(
     id: 'c8',
     title: 'Asiática',
     color: Colors.lightGreen,
+    urlImg: 'assets/images/asian.png',
   ),
   Category(
     id: 'c9',
     title: 'Francesa',
     color: Colors.pink,
+    urlImg: 'assets/images/french.png',
   ),
   Category(
     id: 'c10',
     title: 'Verão',
     color: Colors.teal,
+    urlImg: 'assets/images/summer.png',
+  ),
+  Category(
+    id: 'c2',
+    title: 'Rápido & Fácil',
+    color: Colors.red,
+    urlImg: 'assets/images/faster.png',
+  ),
+  Category(
+    id: 'c3',
+    title: 'Hamburgers',
+    color: Colors.orange,
+    urlImg: 'assets/images/burger.png',
   ),
 ];
 

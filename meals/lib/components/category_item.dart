@@ -22,9 +22,18 @@ class CategoryItem extends StatelessWidget {
       borderRadius: BorderRadius.circular(15),
       splashColor: Theme.of(context).primaryColor,
       child: Container(
-        child: Text(
-          category.title,
-          style: Theme.of(context).textTheme.headline6,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Text(
+              category.title,
+              style: Theme.of(context).textTheme.headline6,
+            ),
+            Image.asset(
+              category.urlImg,
+              width: 150,
+            )
+          ],
         ),
         padding: const EdgeInsets.all(15),
         decoration: BoxDecoration(
