@@ -89,6 +89,13 @@ class MeaDetailScreen extends StatelessWidget {
           ],
         ),
       ),
+      floatingActionButton: FloatingActionButton(
+        child: Icon(Icons.star),
+        onPressed: () {
+          // o argumento do pop() passa uma informação de volta para a tela anterior
+          Navigator.of(context).pop(meal.title);
+        },
+      ),
     );
   }
 }
